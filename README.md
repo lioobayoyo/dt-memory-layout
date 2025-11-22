@@ -3,7 +3,7 @@ Memory layout generator for Dwarf-Therapist
 
 Generate ini memory layouts for [Dwarf-Therapist](https://github.com/Dwarf-Therapist/Dwarf-Therapist) from [df-structures](https://github.com/DFHack/df-structures) XML.
 
-Building requires a C++20 compiler, CMake, and [dfs](https://github.com/cvuchener/dfs).
+Building requires a C++20 compiler, CMake, and [dfs](https://github.com/cvuchener/libdfs).
 
 Usage:
 

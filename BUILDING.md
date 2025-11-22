@@ -6,18 +6,20 @@ Building requires a C++20 compiler, CMake, and [libdfs](https://github.com/cvuch
 
 ### Install Git for Windows
 
-See existing guides all over the internet, for instance here:
-https://github.com/Dwarf-Therapist/Dwarf-Therapist/blob/master/BUILDING.md#visual-studio-version (section 3.)
+Get Git for Windows, https://gitforwindows.org/, install with default options.
 
 ### Get source code
 
-From a terminal, in a folder where you want to put the source code, including the external library libdfs in git submodule:
+Open a terminal, in the folder where you want to clone the source code.
+
+Run: 
 
 ```
 git clone https://github.com/cvuchener/dt-memory-layout
 cd dt-memory-layout
 git submodule update --init --recursive
 ```
+(the submodule part is needed to include the libdfs dependency).
 
 ### Install Visual Studio
 

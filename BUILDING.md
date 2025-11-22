@@ -1,5 +1,7 @@
 # Building instructions
 
+Building requires a C++20 compiler, CMake, and [libdfs](https://github.com/cvuchener/libdfs).
+
 ## Windows 
 
 ### Install Git for Windows
